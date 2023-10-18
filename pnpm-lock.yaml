@@ -20,6 +20,8 @@ specifiers:
   source-map-support: ^0.5.21
   tsconfig-paths: ^4.2.0
   typescript: ^5.1.3
+  zod: ^3.22.4
+  zod-validation-error: ^1.5.0
 
 dependencies:
   '@nestjs/common': 10.2.7_atc7tu2sld2m3nk4hmwkqn6qde
@@ -29,6 +31,8 @@ dependencies:
   bcryptjs: 2.4.3
   reflect-metadata: 0.1.13
   rxjs: 7.8.1
+  zod: 3.22.4
+  zod-validation-error: 1.5.0_zod@3.22.4
 
 devDependencies:
   '@nestjs/cli': 10.1.18
@@ -4413,3 +4417,16 @@ packages:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
     dev: true
+
+  /zod-validation-error/1.5.0_zod@3.22.4:
+    resolution: {integrity: sha512-/7eFkAI4qV0tcxMBB/3+d2c1P6jzzZYdYSlBuAklzMuCrJu5bzJfHS0yVAS87dRHVlhftd6RFJDIvv03JgkSbw==}
+    engines: {node: '>=16.0.0'}
+    peerDependencies:
+      zod: ^3.18.0
+    dependencies:
+      zod: 3.22.4
+    dev: false
+
+  /zod/3.22.4:
+    resolution: {integrity: sha512-iC+8Io04lddc+mVqQ9AZ7OQ2MrUKGN+oIQyq1vemgt46jwCwLfhq7/pwnBnNXXXZb8VTVLKwp9EDkx+ryxIWmg==}
+    dev: false
